@@ -14,12 +14,14 @@ body {
     display: flex;
     justify-content: space-between;
     background: #FFF;
+   
 }
 
 .logo-container {
     border: 1px solid blue;
     display: flex;
     width: 50%;
+    
 }
 
 .logo-container img {
@@ -48,7 +50,8 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 1920px;
-    margin: 0 auto;
+    
+
 }
 
 .g-section {
@@ -64,11 +67,11 @@ body {
 
 .banner-container {
     border: 1px solid red;
-    margin: 50px auto 0;
+    margin: 50px 240px 0;
     max-width: 1920px;
     min-height: 50px;
     display: flex;
-    
+
 }
 
 .banner-img {
@@ -79,6 +82,15 @@ body {
 .banner-text {
     border: 1px solid red;
     width: 50%;
+}
+
+.nav-icons {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+  text-align: center;
+  border: 1px solid greenyellow;
 }
 
 .banner-img img {
@@ -132,7 +144,7 @@ body {
     text-transform: uppercase;
     border-radius: 48px;
     background: #4EC5F7;
-   
+
 }
 
 .primary-btn {
@@ -143,7 +155,59 @@ body {
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-   margin-left: 240px;
+    margin-left: 240px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.gamer-container {
+    border: 1px solid gray;
+    display: flex;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.gamer-text {
+    border: 1px solid red;
+    width: 40%;
+    text-align: center;
+    margin-top: 95px;
+    margin-right: 240px;
+    margin-left: 52px;
+    margin-bottom: 96px;
+}
+
+.gamer-img {
+    border: 1px solid blue;
+    width: 868px;
+    height: 489px;
+    margin-top: 55px;
+   
+    margin: 56px;
+
+}
+
+.gamer-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:576) {
+
+    .nav-container,
+    .nav-items-container,
+    .logo-container {
+        flex-direction: column;
+
+    }
 }
