@@ -444,19 +444,9 @@ line-height: normal;
 
 
 
-@media screen and(max-width:576px) and(max-width:892px);
-
-    {
-
-    nav,
-    .nav-container,
-    .nav-items-container,
-    .logo-container,
-    .nav-icons,
-    {
+@media screen and(max-width:576px) and(max-width:892px) {
+ .nav-container,.nav-items-container, .logo-container,.nav-icons {
     flex-direction: column;
-
-
 }
 
 * {
