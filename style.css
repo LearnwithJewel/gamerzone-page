@@ -10,7 +10,7 @@ body {
 }
 
 .nav-container {
-    
+
     display: flex;
     justify-content: space-between;
     background: #FFF;
@@ -19,14 +19,14 @@ body {
 }
 
 .logo-container {
-   
+
     display: flex;
     width: 50%;
 
 }
 
 .logo-container img {
-   
+
     width: 100px;
     object-fit: cover;
     margin-right: 20px;
@@ -45,7 +45,7 @@ body {
 }
 
 .nav-items-container {
-   
+
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@ body {
 }
 
 .banner-container {
-  
+
     margin: 50px 240px 0;
     max-width: 1400px;
     min-height: 50px;
@@ -76,12 +76,12 @@ body {
 }
 
 .banner-img {
-    
+
     width: 50%;
 }
 
 .banner-text {
-  
+
     width: 50%;
 }
 
@@ -176,14 +176,14 @@ body {
 }
 
 .gamer-container {
-   
+
     display: flex;
     text-align: center;
     margin-left: 240px;
 }
 
 .gamer-text {
-    
+
     width: 40%;
     text-align: center;
     margin-top: 95px;
@@ -193,7 +193,7 @@ body {
 }
 
 .gamer-img {
-   
+
     width: 868px;
     height: 489px;
     margin-top: 55px;
@@ -208,7 +208,7 @@ body {
 }
 
 .features {
-   
+
     margin-top: 120px;
     display: flex;
     gap: 30px;
@@ -217,7 +217,7 @@ body {
 }
 
 .features-text {
-   
+
 
     margin-left: 200px;
     margin-top: 200px;
@@ -226,11 +226,11 @@ body {
 }
 
 .features-img {
-   
+
     width: 60%;
     padding-right: 100px;
     background-image: url(./images/Rectangle\ 55.png);
-    border-radius: 8px; 
+    border-radius: 8px;
     margin-right: 100px;
 
 
@@ -241,7 +241,7 @@ body {
 
 .features-description {
     color: #534C64;
-    text-align:center;
+    text-align: center;
     font-family: Work Sans;
     font-size: 18px;
     font-style: normal;
@@ -260,17 +260,178 @@ body {
 }
 
 
-.feature-box{
+.feature-box {
     width: 318.5px;
-height: 365.083px;
-flex-shrink: 0;
-border-radius: 8px;
-border: 10px solid #FFF; 
-background-image: url(./images/Rectangle\ 66.png);
-position: relative;
-top: 300px;
-right: 100px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background-image: url(./images/Rectangle\ 66.png);
+    position: relative;
+    top: 300px;
+    right: 100px;
 
+}
+
+.carrers-section {
+    border: 1px solid red;
+    margin-top: 200px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-bottom: 140px;
+    display: flex;
+
+
+}
+
+.carrers-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+
+}
+
+.carrers-details {
+    border: 1px solid red;
+    width: 50%;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 140px;
+
+}
+
+.carrers-list {
+    border: 1px solid red;
+    display: flex;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    gap: 10px;
+
+
+}
+
+.carrers-list2 {
+    text-align: right;
+}
+
+.carrers-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.carrers-img {
+    border: 1px solid red;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.carrers-img img {
+    width: 100px;
+
+
+}
+
+.footer-section {
+    background: gray
+}
+
+
+.footer-section img {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 45px;
+
+
+}
+
+.footer-list {
+    display: flex;
+
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+
+
+.footer-description {
+
+    font-family: Work Sans;
+    font-size: 45px;
+
+    font-weight: 700;
+
+
+}
+
+.footer-logo {
+    justify-content: center;
+    display: flex;
+}
+
+.footer-list li {
+    /* margin-right: 20px; */
+    text-decoration: none;
+    display: inline-flex;
+
+    align-items: flex-start;
+    gap: 60px;
+    margin-right: 20px;
+}
+
+.icon-image {
+    
+    height: 40px;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 40px; 
+    margin-left: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-icon .icon-image{
+    justify-content: center;
+}
+
+.footer-condition{
+    display: flex;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+.footer-condition li{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.bottom-site{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+/* margin-left: 100px; */
 }
 
 
@@ -283,54 +444,61 @@ right: 100px;
 
 
 
-@media screen and(max-width:576px; ) and(max-width:892px;
+@media screen and(max-width:576px) and(max-width:892px);
 
-) {
+    {
+
     nav,
     .nav-container,
     .nav-items-container,
     .logo-container,
-    .nav-icons, {
-        flex-direction: column;
-       
+    .nav-icons,
+    {
+    flex-direction: column;
 
-    }
-    *{
-        margin: 0%;
-        padding: 0%;
-    }
 
-    .nav-icons {
-        flex-direction: column;
-        margin-left: 0;
-       
-    }
+}
 
-    .nav-container {
-        flex-direction: column;
-        display: block;
-        margin-left: 0;
-    }
+* {
+    margin: 0%;
+    padding: 0%;
+}
 
-    .features {
-        flex-direction: column;
-        
+.nav-icons {
+    flex-direction: column;
+    margin-left: 0;
 
-    }
-    .logo-container img{
-        grid-template-columns: 1fr;
-       
-    }
-    .banner-container{
-        grid-template-columns: 1fr;
-    }
-    .features-img{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-    header{
-        padding: 20px;
-    }
+}
+
+.nav-container {
+    flex-direction: column;
+    display: block;
+    margin-left: 0;
+}
+
+.features {
+    flex-direction: column;
+
+
+}
+
+.logo-container img {
+    grid-template-columns: 1fr;
+
+}
+
+.banner-container {
+    grid-template-columns: 1fr;
+}
+
+.features-img {
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+header {
+    padding: 20px;
+}
 
 
 }
